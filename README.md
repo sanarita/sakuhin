@@ -6,6 +6,7 @@
 
 - **Copilot Agent 開発** (Copilot Studio / Agent Builder)
 - **プロンプトエンジニアリング**
+- **生成AIセキュリティ** (プロンプトインジェクション対策、多層防御設計)
 - **Microsoft Power Platform** (Dataverse, PowerApps)
 - **業務自動化** (Google Apps Script, VBA, Python)
 
@@ -22,6 +23,7 @@
 
 - **AI/LLM**: Prompt Engineering, Claude API, GPT, Copilot
 - **Agent**: Copilot Studio, Agent Builder, Agentic Loop Design
+- **Security**: プロンプトインジェクション検証、AI利用ガイドライン策定
 - **Backend**: Python, VBA, Google Apps Script
 - **データベース**: Dataverse, Cosmos DB (Gremlin)
 - **ビジネス**: 業務自動化、プロセス標準化、生成AI導入コンサル
