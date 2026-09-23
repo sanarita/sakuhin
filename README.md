@@ -17,7 +17,7 @@
 | [PPT作成支援エージェント](./ppt-agent-example) | Copilot Studio | ブランド準拠のPowerPoint自動生成 |
 | [PoC 生成AIナレッジ活用DB構築](./knowledge-base-rag) | Copilot Studio + Dataverse + Azure AI Search + RAG | 社内ナレッジベースの検索・回答 |
 | [議事録作成支援エージェント](./meeting-transcript-agent) | Copilot Studio | Teams会議の後のトランスクリプトからフィラー音を削除し、正確な議事録を生成および定型のフォーマットへ出力 |
-| [間接的プロンプトインジェクション実証・対策](./prompt-injection-detection) | 無償版Copilot / 生成AIセキュリティ | 自作検定で間接的プロンプトインジェクションを再現し教材化。「表示⇔送信」の切り分けと多層防御を整理 |
+| [間接的プロンプトインジェクション実証・対策](./prompt-injection-demo) | 無償版Copilot / 生成AIセキュリティ | 自作検定で間接的プロンプトインジェクションを再現し教材化。「表示⇔送信」の切り分けと多層防御を整理 |
 | [skillscan / docscan](https://github.com/sanarita/skillscan) | SKILL.md・PDF・Wordに仕込まれた間接プロンプトインジェクションを静的に検出するツール（Python）。外部サンプルで見逃し3件を発見・分析し、5件すべて検知・誤検知0に改善 | [リポジトリ](https://github.com/sanarita/skillscan) |
 
 ## 🛠️ スキル
