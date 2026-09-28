@@ -1,4 +1,4 @@
-# Copilot Agent & Prompt Engineering Portfolio
+# Generative AI Practitioner Portfolio
 
 生成AI推進の実務者として、Microsoft Copilot、Agent Builder、prompt engineering を中心に取り組んでいます。
 
