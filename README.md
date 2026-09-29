@@ -19,7 +19,7 @@
 | [議事録作成支援エージェント](./meeting-transcript-agent) | Copilot Studio | Teams会議の後のトランスクリプトからフィラー音を削除し、正確な議事録を生成および定型のフォーマットへ出力 |
 | [間接的プロンプトインジェクション実証・対策](./prompt-injection-demo) | 無償版Copilot / 生成AIセキュリティ | 自作検体で間接的プロンプトインジェクションを再現し教材化。「表示⇔送信」の切り分けと多層防御を整理 |
 | [skillscan / docscan](https://github.com/sanarita/skillscan) | Python / 生成AIセキュリティ | SKILL.md・PDF・Wordに仕込まれた間接的プロンプトインジェクションを静的に検出するツール。外部サンプルで見逃し3件を発見・分析し、5件すべて検知・誤検知0に改善 |
-| [IPI Guard Chat](https://github.com/sanarita/ipi-guard-chat) | Python / 生成AIセキュリティ | 社外文書をCopilotに読ませる前に、「隠された悪質な命令」を検査するチャット形式のローカルツール。実資料で誤検知19件・見逃し2件を発見して改善し、回帰テスト17件すべて期待どおりに判定 |
+| [IPI Guard Chat](https://github.com/sanarita/ipi-guard-chat) | Python / 生成AIセキュリティ | 社外文書をCopilotに読ませる前に、**隠された悪質な命令**を検査するチャット形式のローカルツール。実資料で誤検知19件・見逃し2件を発見して改善し、回帰テスト17件すべて期待どおりに判定 |
 
 ## 🛠️ スキル
 
