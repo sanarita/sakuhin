@@ -20,7 +20,7 @@
 | [間接的プロンプトインジェクション実証・対策](./prompt-injection-demo) | 無償版Copilot / 生成AIセキュリティ | 自作検体で間接的プロンプトインジェクションを再現し教材化。「表示⇔送信」の切り分けと多層防御を整理 |
 | [skillscan / docscan](https://github.com/sanarita/skillscan) | Python / 生成AIセキュリティ | SKILL.md・PDF・Wordに仕込まれた間接的プロンプトインジェクションを静的に検出するツール。外部サンプルで見逃し3件を発見・分析し、5件すべて検知・誤検知0に改善 |
 | [IPI Guard Chat](https://github.com/sanarita/ipi-guard-chat) | Python / 生成AIセキュリティ | 社外文書をCopilotに読ませる前に、**隠された悪質な命令**を検査するチャット形式の静的解析ツール。自作の検体文書17件（隔離すべき攻撃ファイル13件・要確認とすべきファイル2件・問題のないファイル2件）で検証し、17件すべて期待どおりに判定 |
-| [mcp-gate](https://github.com/sanarita/mcp-gate)（[ブラウザ版](https://sanarita.github.io/mcp-gate/)） | Python（標準ライブラリのみ）/ MCP / OWASP Agentic Top 10 | 生成AIを社外のMCPサーバやAPIにつなぐ前に、接続先の安全性を審査するツール。ツールポイズニング・ラグプル・シャドーイング・トークン中継・過剰なOAuthスコープを検査し、7項目のルーブリック（OWASP ASI番号に対応付け）で許可／条件付き許可／不可を判定。API仕様書（OpenAPI／Copilot Studioのカスタムコネクタ）にも対応。承認時の定義をハッシュで固定して承認後の差し替えを検知。CLI・Claude Desktop（MCP）・ブラウザ版の3形態で動作し、自動テスト42件と実在のMCPサーバで検証。ブラウザ版は入力を外部に送信しない設計 |
+| [maGATE](https://github.com/sanarita/magate)（[ブラウザ版](https://sanarita.github.io/magate/)） | Python（標準ライブラリのみ）/ MCP / OpenAPI / OWASP Agentic Top 10 | 生成AIを他社のMCPサーバやAPIにつなぐ前に、接続先の安全性を審査するツール（旧名 mcp-gate）。ツールポイズニング・ラグプル・シャドーイング・トークン中継・過剰なOAuthスコープを検査し、7項目のルーブリック（OWASP ASI番号に対応付け）で許可／条件付き許可／不可を判定。API仕様書（OpenAPI／Copilot Studioのカスタムコネクタ）にも対応。承認時の定義をハッシュで固定して承認後の差し替えを検知。CLI・Claude Desktop（MCP）・ブラウザ版の3形態で動作し、自動テスト50件と実在のMCPサーバで検証。ブラウザ版は入力を外部に送信しない設計 |
 
 ## 🛠️ スキル
 
